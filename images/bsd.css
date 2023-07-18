@@ -1,0 +1,143 @@
+body {
+	background-color	: #FFF;
+	background-image	: url(hdr_fill.png);
+	background-repeat	: repeat-x;
+	background-position	: 0 -20px;
+	margin			: 0 20px;
+	padding			: 0;
+}
+
+body, td, li, input, select, label, #content h1, #content h2 {
+	color			: #000;
+	font-family		: Verdana, sans-serif;
+	font-size		: 11px;
+}
+
+a:link, a:visited {
+	color			: #900;
+}
+
+a:hover {
+	color			: #000;
+}
+
+table {
+	background-color	: #FFF;
+	border-collapse		: collapse;
+	border-color		: #CACACA;
+	border-spacing		: 0;
+	border-style		: solid solid none none;
+	border-width		: 1px 1px 0 0;
+}
+
+table th, table td {
+	border-width		: 1px;
+	border-style		: solid;
+	border-color		: #D4D4D4;
+	padding			: 1px 2px;
+	white-space		: nowrap;
+}
+
+table th {
+	background-color: #cbd2ec; 
+	color: #000;
+	padding: 2px;
+     	text-align: left;
+	font-weight: normal; 
+	font-style: italic; 
+}
+
+table th a:link, table th a:visited {
+	color				: #000;
+	     	text-align: left;
+		font-weight: normal; 
+		font-style: italic; 
+}
+
+form {
+	margin				: 0;
+	padding				: 0;
+}
+
+input, select {
+	background-color	: #F2F2F2;
+	border-color		: #868686 #d7d7d7 #d7d7d7 #868686;
+	border-style		: groove solid solid groove;
+	border-width		: 2px 1px 1px 2px;
+	margin				: 1px;
+}
+
+input:focus, input:hover, select:focus, select:hover {
+	background-color	: #666;
+}
+
+.right ul {
+	margin-right		: 16px;
+}
+
+.right li {
+	border-width		: 0 0 0 1px;
+	border-style		: solid;
+	border-color		: #B4B4B4;
+	display				: inline;
+	padding				: 0 4px 0 8px;
+}
+
+.left li {
+	border-width		: 0 0 0 1px;
+	border-style		: solid;
+	border-color		: #B4B4B4;
+	display				: inline;
+	padding				: 0 4px 0 8px;
+}
+
+li:first-child {
+	border-left		: 0;
+	padding-left		: 0;
+}
+
+li a:link, li a:visited {
+	color				: #666;
+	font-weight			: bold;
+	text-decoration		: none;
+}
+
+#header {
+	color				: #FFF;
+	height				: 40px;
+}
+
+#content {
+	margin				: 64px 0 40px 0;
+}
+
+.left {
+	float				: left;
+}
+
+.left ul { 
+    margin-left: -50px;
+}
+
+.right ul { 
+    margin-left: -50px;
+}
+
+.right {
+	float				: right;
+}
+
+/* XXX */
+body > p {
+	display				: none;	
+}
+
+.resultsrowupdated {
+background-color: #ffc;
+}
+
+
+.filterbox {
+	border: 1px solid #CACACA;
+	padding: 8px;
+}
